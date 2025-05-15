@@ -4,7 +4,7 @@ Number of elements: 10000
 
 Bubble Sort
 Ordered list time: 2.58144 seconds
-Reversed list time: 5.96247 seconds
+Reversed list time: 5.96247 seconds ##Worst of all
 Random list time: 4.58473 seconds
 
 Bubble Sort Early Exit
@@ -29,16 +29,20 @@ Random list time: 0.02186 seconds
 
 Questions to answer:
 1) What was the worst case scenario for any sorting technique?
-
+    Bubble Sort on the reversed list is the worst case scenario from this test.
 
 2) The first 3 sorts have the same runtime of O(n^2). Why were the times different? Why would one be more efficient than the others?
-
+    Although the first 3 sorts have the same runtime of O(n^2), their actual speads differ because of the steps completed. The runtime of O(n^2)
+    is the worst case scenario. Bubble Sort has many unnecessary steps, Selection Sort does a fixed number of comparisons but fewer swaps, and
+    Insertion Sort is faster on sorted or almost sorted data.
 
 3) Why was merge sort so much more efficient?
-
+    Merge sort divides and conquers giving it consistent O(n log n) time and avoids nested loops.
 
 4) The built-in sorting technique for most programming languages is known as TimSort.
 This is a merge sort until the arrays have fewer than 10 elements, then it does an insertion sort. Why would this be useful?
-
+    This is useful because Insertion Sort is fast on small or sorted data but not as fast with larger lists. 
 
 5) What issues can you see with a recursive sorting technique like merge sort?
+    They use extra memory and could cause a stack overflow issue resulting in the program crashing. It could also slow things down 
+    with calling itself over and over again.
