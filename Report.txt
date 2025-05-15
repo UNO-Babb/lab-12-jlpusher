@@ -1,31 +1,31 @@
 Name:Jessica Pusher
 
-Number of elements:
+Number of elements: 10000
 
 Bubble Sort
-Sorted:
-Reversed:
-Random:
+Ordered list time: 2.58144 seconds
+Reversed list time: 5.96247 seconds
+Random list time: 4.58473 seconds
 
 Bubble Sort Early Exit
-Sorted:
-Reversed:
-Random:
+Ordered list time: 0.00051 seconds
+Reversed list time: 5.84565 seconds
+Random list time: 4.48700 seconds
 
 Selection Sort
-Sorted:
-Reversed:
-Random:
+Ordered list time: 2.02348 seconds
+Reversed list time: 1.87913 seconds
+Random list time: 1.89518 seconds
 
 Insertion Sort
-Sorted:
-Reversed:
-Random:
+Ordered list time: 0.00090 seconds
+Reversed list time: 3.76115 seconds
+Random list time: 1.92642 seconds
 
 Merge Sort
-Sorted:
-Reversed:
-Random:
+Ordered list time: 0.01632 seconds
+Reversed list time: 0.01695 seconds
+Random list time: 0.02186 seconds
 
 Questions to answer:
 1) What was the worst case scenario for any sorting technique?

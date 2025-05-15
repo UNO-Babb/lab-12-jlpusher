@@ -33,31 +33,31 @@ def main():
   print("Begin Sorting %d elements." % numberTerms)
 
   startTime = time.time()
-  AllSorts.bubbleSort(orderedList)
+  #AllSorts.bubbleSort(orderedList)
   #AllSorts.bubbleSortEarlyExit(orderedList)
   #AllSorts.selectionSort(orderedList)
   #AllSorts.insertionSort(orderedList)
-  #AllSorts.mergeSort(orderedList)
+  AllSorts.mergeSort(orderedList)
   endTime = time.time()
   elapsedTime = endTime - startTime
   print("Ordered list time: %.5f seconds" % elapsedTime)
 
   startTime = time.time()
-  AllSorts.bubbleSort(reversedList)
+  #AllSorts.bubbleSort(reversedList)
   #AllSorts.bubbleSortEarlyExit(reversedList)
   #AllSorts.selectionSort(reversedList)
   #AllSorts.insertionSort(reversedList)
-  #AllSorts.mergeSort(reversedList)
+  AllSorts.mergeSort(reversedList)
   endTime = time.time()
   elapsedTime = endTime - startTime
   print("Reversed list time: %.5f seconds" % elapsedTime)
 
   startTime = time.time()
-  AllSorts.bubbleSort(randomList)
+  #AllSorts.bubbleSort(randomList)
   #AllSorts.bubbleSortEarlyExit(randomList)
   #AllSorts.selectionSort(randomList)
   #AllSorts.insertionSort(randomList)
-  #AllSorts.mergeSort(randomList)
+  AllSorts.mergeSort(randomList)
   endTime = time.time()
   elapsedTime = endTime - startTime
   print("Random list time: %.5f seconds" % elapsedTime)
